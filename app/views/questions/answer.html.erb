@@ -1,0 +1,7 @@
+<div class="container">
+  <h2>You said:</h2>
+  <p><%= params[:question]%></p>
+  <h2>Stupid Coach says:</h2>
+  <p><%= @answer %></p>
+  <%= link_to "Ask again", ask_path %>
+</div>
